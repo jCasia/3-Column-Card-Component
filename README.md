@@ -11,4 +11,4 @@ This is a simple card component that was built using React and CSS for practice
 ### Some screenshot of this project:
 
 ![](./src/images/card1.png)
-![](./src/images/card2.png)
+
