@@ -1,0 +1,68 @@
+.card {
+  max-width: 310px;
+  max-height: 500px;
+
+  background-color: hsl(31, 77%, 52%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.25rem;
+
+  padding: 3.5rem 3.25rem;
+}
+.card:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+.card:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.car-heading {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.car-text {
+  color: hsla(0, 0%, 100%, 0.75);
+
+  line-height: 1.75;
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+}
+
+.car-link {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  align-self: flex-start;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.car-link:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(31, 77%, 52%);
+  outline: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.card:nth-child(2) .car-link {
+  color: hsl(184, 100%, 22%);
+}
+
+.card:nth-child(2) .car-link:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(184, 100%, 22%);
+  outline: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.card:nth-child(3) .car-link {
+  color: hsl(179, 100%, 13%);
+}
+.card:nth-child(3) .car-link:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(179, 100%, 13%);
+  outline: 2px solid hsla(0, 0%, 100%, 0.75);
+}
